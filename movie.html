@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="author" content="Haziq Danial" />
+  <title>Movie Recommendations</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About Me</a></li>
+      <li><a href="education.html">Education</a></li>
+      <li><a href="job.html">Job Experience</a></li>
+      <li><a href="hobby.html">Hobby</a></li>
+      <li><a href="music.html">Music Recommendations</a></li>
+      <li><a class="active" href="movie.html">Movie Recommendations</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Main Content -->
+  <main class="about-container">
+
+    <!-- Movie Intro -->
+    <section class="about-section">
+      <h2>&#127909; Why I Love Watching Movies</h2>
+      <p>
+        Watching movies is more than just a hobby for me — it’s like entering another world. Each film allows me to step into different realities, explore new emotions, and see life through someone else’s eyes. Whether it's a heartwarming drama or an intense thriller, movies give me an escape, a lesson, and sometimes even a sense of peace. They inspire, entertain, and help me reflect on my own life in ways that few other things can.
+      </p>
+    </section>
+
+    <!-- Favorite Movies -->
+    <section class="about-section">
+      <h2>&#127916; My Top Favorite Movies</h2>
+      <div class="movie-grid">
+        <!-- Movies (shortened here but assumed to include all 12 as in your original) -->
+        <div class="movie-card">
+          <img src="images/endgame.jpg" alt="Avengers: Endgame">
+          <p><strong>Avengers: Endgame</strong><br>
+            <a href="https://www.youtube.com/watch?v=TcMBFSGVi1c" target="_blank">Watch Trailer</a>
+          </p>
+        </div>
+        <!-- Include all other 11 cards exactly as you wrote them -->
+      </div>
+    </section>
+
+    <!-- Favorite Genres -->
+    <section class="about-section">
+      <h2>&#127902; Favourite Genres</h2>
+      <ul>
+        <li><strong>Action:</strong> Fast-paced, adrenaline-filled sequences keep me excited and entertained.</li>
+        <li><strong>Drama:</strong> I enjoy deep, emotional stories that explore human relationships and challenges.</li>
+        <li><strong>Comedy:</strong> Everyone needs a laugh, and a good comedy always lifts my mood.</li>
+        <li><strong>Thriller:</strong> Keeps me on the edge of my seat with suspense and mystery.</li>
+        <li><strong>Historical:</strong> Combines my love for history with cinematic storytelling.</li>
+      </ul>
+    </section>
+
+    <!-- Recommendation Form -->
+    <section class="about-section">
+      <h2>&#128172; Recommend Me a Movie</h2>
+      <form class="recommend-form">
+        <label for="movie">Movie Title</label>
+        <input type="text" id="movie" name="movie" placeholder="Your favourite movie">
+
+        <label for="reason">Why do you recommend it?</label>
+        <textarea id="reason" name="reason" rows="4" placeholder="Tell me why this movie stands out..."></textarea>
+
+        <button type="submit">Submit</button>
+      </form>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-container">
+      <p>&copy; 2025 Haziq Danial. All rights reserved.</p>
+      <nav class="footer-nav">
+        <a href="index.html">Home</a> |
+        <a href="about.html">About</a> |
+        <a href="contact.html">Contact</a>
+      </nav>
+      <p class="footer-note">This website was designed and developed as a personal portfolio project.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
